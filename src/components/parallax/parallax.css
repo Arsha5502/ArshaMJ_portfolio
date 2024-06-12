@@ -1,0 +1,36 @@
+.parallax {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: large;
+}
+
+.mountain,
+.starbg,
+.stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.mountain {
+    background-image: url("../../assets/images/parallax/mountain.png");
+}
+
+.starbg {
+    background-image: url("../../assets/images/parallax/starbg.png");
+}
+
+.stars {
+    background-image: url("../../assets/images/parallax/stars.png");
+}
