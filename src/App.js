@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from "./components/navbar/Navbar";
-import Parallax from './components/parallax/Parallax';
+// import Parallax from './components/parallax/Parallax';
 import Banner from './components/banner/Banner';
 import About from './components/about/About';
 import Projects from './components/projects/Projects';
